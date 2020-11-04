@@ -20,7 +20,8 @@ function webreq(uri, payload)
         response = HTTP.request("POST", uri, headers, payload; require_ssl_verification = true)
         #return String(response.body)
         if response.status == 200
-                return JSON.parse(String(response.body))
+                #return JSON.parse(String(response.body)) #Returns 1 on success.
+                return response.status #Returns 200 on success.
         else
                 error(response.status)
         end
