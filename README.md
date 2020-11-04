@@ -27,4 +27,6 @@ julia client.jl
 ```
 ![PoC message](webhookmessage.png)
 
-Final note, `client.jl` gives you shorter code and easier access to change the "card" but `client2.jl` is a bit more immediately usable in other projects and in my opinion, better written. Both should work.
+Final note, `client.jl` gives you shorter code and easier access to change the "card" but `client2.jl` is a bit more immediately usable in other projects due to more example code. Use what works better for you!
+
+![PoC message 2](webhookmessage2.png)
