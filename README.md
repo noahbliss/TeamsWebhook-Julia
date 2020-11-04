@@ -20,7 +20,7 @@ add HTTP JSON DelimitedFiles
 $EDITOR spike.conf
 ```
 
-## Step 4: Edit `client.jl` with the message you want to send, then run the thing.
+## Step 4: Edit `client.jl` uncommenting the settingsfile, adding the message you want to send, then running the thing.
 ```
 $EDITOR client.jl
 julia client.jl
