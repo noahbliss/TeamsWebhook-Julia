@@ -26,3 +26,5 @@ $EDITOR client.jl
 julia client.jl
 ```
 ![PoC message](webhookmessage.png)
+
+Final note, `client.jl` gives you shorter code and easier access to change the "card" but `client2.jl` is a bit more immediately usable in other projects and in my opinion, better written. Both should work.
