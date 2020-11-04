@@ -31,6 +31,7 @@ end
 
 title = "Title"
 message = "This is the message body."
+message = replace(message, "\n" => "\n\r")
 buttontext = "Click me!"
 buttonuri = "https://duck.com"
 
